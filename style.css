@@ -1,0 +1,35 @@
+.main-container {
+  padding-top: 50px;
+}
+.index-into {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.index-into .jumbotron {
+  padding: 100px 60px;
+  margin: 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.index-into .jumbotron h1 {
+  font-size: 50px;
+}
+.index-gallery {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 100%;
+  background-color: #fff;
+}
+.index-gallery h2 {
+  text-align: center;
+}
+.index-gallery p {
+  text-align: center;
+}
+.index-form {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 100%;
+  background-color: #f3f3f3;
+}

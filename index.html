@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class='jumbotron' style="margin-bottom: 0px"">
+        <h1>Isaac Tai</h1>
+        <p>let's learn sth web development</p>
+    </div>
+
+    <!--bg-primary bg-success bg -warning bg-info bg-danger-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <a class="navbar-brand">Isaac Tai</a>
+        <span class="navbar-text">sonthing for testing</span>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">link1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="#Thedropdown">Dropdown
+                <span class="caret"></span>
+            </a>
+            <div class="dropdown-menu" aria-labellaedby="Thedropdown">
+                <ul class="navbar-nav">
+                <a class="dropdown-item">php</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item">css</a>
+                <a class="dropdown-item">javascript</a>
+                </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">link3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">link4</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <img src="bootstrap-tool.PNG" class="img-fluid" />
+
+
+    <section class="main-container">
+        <article class="index-into">
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h1>Isaac Tai</h1>
+                            <p >Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="index-gallery">
+            <div class="container-fluid">
+
+                <h2>hello world</h2>
+                <p>this is some of the website content</p>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid rounded img-thumbnail" src="1043605.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="index-table">
+        <div class="container table-responsive-sm">
+            <table class="table table-striped table-dark table-hover table-sm">
+                <caption>List of users</caption> <!--It helps users with screen readers to find a table and understand what it’s about and decide if they want to read it.-->
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>daniel</td>
+                        <td>john</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Daniel</td>
+                        <td>Nielson</td>
+                        <td>alofer</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>Barry</td>
+                        <td>budibf</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">spaning 2</td>
+                        <td>col-1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <article class="index-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full-Name</label>
+                            <input class="form-control" type="text" name='name'>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email</label>
+                            <input class="form-control" type="text" name='email'>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age:</label>
+                            <select  class="form-control" name="age">
+                                <option>10+</option>
+                                <option>20+</option>
+                                <option>40+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Msg">Message:</label>
+                            <textarea  class="form-control" name="Msg"></textarea>
+                        </div>
+                        <button class="btn btn-default">default</button>
+                        <button class="btn btn-primary" disabled>primary</button>
+                        <button class="btn btn-warning">warning</button>
+                        <button class="btn btn-info btn-block">info</button>
+
+                    </form>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </article>
+
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+            A simple primary <a href="" class="alert-link">alert—check </a>it out!
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well Done!</h4>
+            <p>A simple primary <a href="" class="alert-link">alert—check </a>it out!</p>
+            <hr>
+            <p class="mb-0"> <strong>Whenever</strong>you need to, be sure to use margin utilities to keep things nice and tidy.<button type="button" class="close" data-dismiss="alert" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </p>
+            
+        </div>
+    </div>
+  </body>
+</html>
